@@ -291,7 +291,7 @@
               <i class="fa-solid fa-layer-group"></i> Attribution & Conversion Hub
             </div>
             <h1 class="text-3xl font-bold text-slate-800 dark:text-white">Video & Carousel Summary</h1>
-            <p class="text-slate-500 dark:text-slate-400 mt-1">Analisis performa GMV, Pesanan SKU, Impresi Produk, CTR (%), dan Klik Produk dari rekap data harian.</p>
+            <p class="text-slate-500 dark:text-slate-400 mt-1">Analisis performa GMV, Pesanan SKU, Impresi Produk, CTR (%), dan Klik Produk dari rekap data haDEWA.</p>
           </div>
           <div class="flex flex-wrap items-center gap-3">
             <div class="flex items-center gap-2 bg-white dark:bg-slate-800 px-3.5 py-2 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm">
@@ -426,7 +426,7 @@
           </div>
           <div class="grid grid-cols-1 md:grid-cols-3 gap-4" id="vc-diagnostic-cards">
             <div class="p-4 rounded-xl bg-slate-50 dark:bg-slate-900/60 border border-slate-200 dark:border-slate-700 text-xs text-slate-400">
-              Belum ada data harian. Silakan upload file Excel/CSV atau muat contoh data.
+              Belum ada data haDEWA. Silakan upload file Excel/CSV atau muat contoh data.
             </div>
           </div>
         </div>
@@ -436,9 +436,9 @@
           <div class="p-5 border-b border-slate-200 dark:border-slate-700 flex flex-col sm:flex-row justify-between sm:items-center gap-3">
             <div>
               <h3 class="font-bold text-slate-800 dark:text-white flex items-center gap-2">
-                <i class="fa-solid fa-table-list text-blue-500"></i> Tabel Rincian Harian Video & Carousel
+                <i class="fa-solid fa-table-list text-blue-500"></i> Tabel Rincian HaDEWA Video & Carousel
               </h3>
-              <p class="text-xs text-slate-500 mt-0.5">Data harian lengkap: GMV, Pesanan SKU, Impresi Produk, CTR (%), Klik Produk, CTOR (%), dan GPM.</p>
+              <p class="text-xs text-slate-500 mt-0.5">Data haDEWA lengkap: GMV, Pesanan SKU, Impresi Produk, CTR (%), Klik Produk, CTOR (%), dan GPM.</p>
             </div>
             <div class="flex items-center gap-2">
               <span class="text-xs text-slate-400 font-medium">Urutkan:</span>
@@ -520,7 +520,7 @@
           <!-- Table Delta -->
           <div class="lg:col-span-2 bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm overflow-hidden flex flex-col">
             <div class="p-5 border-b border-slate-100 dark:border-slate-700 bg-slate-50/50 dark:bg-slate-800/50">
-               <h3 class="font-bold text-slate-800 dark:text-white"><i class="fa-solid fa-scale-balanced text-emerald-500 mr-2"></i> Analisis Selisih (Delta Variance)</h3>
+               <h3 class="font-bold text-slate-800 dark:text-white"><i class="fa-solid fa-scale-balanced text-emerald-500 mr-2"></i> Analisis Selisih (Delta VaDEWAce)</h3>
             </div>
             <div class="overflow-x-auto flex-1">
               <table class="w-full text-sm text-left whitespace-nowrap">
@@ -937,10 +937,9 @@
             <div class="w-full md:w-40">
               <label class="block text-[11px] font-bold text-slate-500 uppercase mb-1">Penanggung Jawab</label>
               <select id="todo-assignee" class="w-full px-3 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-600 rounded-lg outline-none text-xs dark:text-white font-medium cursor-pointer">
-                <option value="Alex (Talent)">Alex (Talent)</option>
-                <option value="Sarah (Script)">Sarah (Script)</option>
-                <option value="Rian (Editor)">Rian (Editor)</option>
-                <option value="Budi (Host)">Budi (Host)</option>
+                <option value="KIKI (RAPA)">KIKI (RAPA)</option>
+                <option value="ATHA (MONTRA)">ATHA (MONTRA)</option>
+                <option value="DEWA (RAPA)">DEWA (RAPA)</option>
                 <option value="Team (All)">Team (All)</option>
               </select>
             </div>
@@ -990,7 +989,7 @@
                   <i class="fa-solid fa-video text-[11px]"></i> 0 Terjadwal
                 </span>
                 <span id="cal-gap-badge" class="px-3 py-1 bg-amber-50 dark:bg-amber-900/30 text-amber-700 dark:text-amber-300 font-bold text-xs rounded-lg border border-amber-200 dark:border-amber-800 flex items-center gap-1">
-                  <i class="fa-solid fa-triangle-exclamation text-[11px]"></i> Pantau Jadwal Kosong
+                  <i class="fa-solid fa-tDEWAgle-exclamation text-[11px]"></i> Pantau Jadwal Kosong
                 </span>
               </div>
             </div>
@@ -1242,7 +1241,7 @@
                 </tr>
               </thead>
               <tbody id="rep-vc-topdays-body" class="divide-y divide-slate-100 dark:divide-slate-800">
-                <tr><td colspan="6" class="text-center py-3 text-slate-400">Belum ada data harian Video & Carousel</td></tr>
+                <tr><td colspan="6" class="text-center py-3 text-slate-400">Belum ada data haDEWA Video & Carousel</td></tr>
               </tbody>
             </table>
           </div>
@@ -1334,7 +1333,7 @@
       const toast = document.createElement('div');
       const bgColor = type === "error" ? "bg-red-500" : type === "info" ? "bg-blue-500" : "bg-emerald-500";
       toast.className = `${bgColor} text-white px-4 py-3 rounded-lg shadow-xl text-sm font-semibold animate-fade-in flex items-center`;
-      toast.innerHTML = `<i class="fa-solid ${type === 'error' ? 'fa-triangle-exclamation' : type === 'info' ? 'fa-circle-info' : 'fa-circle-check'} mr-2 text-lg"></i> ${message}`;
+      toast.innerHTML = `<i class="fa-solid ${type === 'error' ? 'fa-tDEWAgle-exclamation' : type === 'info' ? 'fa-circle-info' : 'fa-circle-check'} mr-2 text-lg"></i> ${message}`;
       container.appendChild(toast);
       setTimeout(() => { toast.style.opacity = '0'; toast.style.transition = 'opacity 0.3s'; setTimeout(() => toast.remove(), 300); }, 3000);
     }
@@ -1407,7 +1406,7 @@
       videoList: [],
       salesVideos: [],
       globalTimeStats: {},
-      teamMembers: ['Alex (Talent)', 'Sarah (Script)', 'Rian (Editor)', 'Budi (Host)', 'Team (All)']
+      teamMembers: ['KIKI (Talent)', 'ATHA (Script)', 'DEWA (Editor)', 'Budi (Host)', 'Team (All)']
     };
 
     let kpiTargets = { gmv: 0, views: 0, followers: 0, ctr: 0 };
@@ -1518,7 +1517,7 @@
         videoList: [],
         salesVideos: [],
         globalTimeStats: {},
-        teamMembers: ['Alex (Talent)', 'Sarah (Script)', 'Rian (Editor)', 'Budi (Host)', 'Team (All)']
+        teamMembers: ['KIKI (Talent)', 'ATHA (Script)', 'DEWA (Editor)', 'Budi (Host)', 'Team (All)']
       };
       kpiTargets = { gmv: 0, views: 0, followers: 0, ctr: 0 };
 
@@ -1926,9 +1925,9 @@
 
       // Starter Kanban Tasks for Team
       db.todos = [
-        { id: 101, title: "Review Case Ice Clear Garansi Yellowing 6 Bulan (Uji Ketahanan)", stage: "Filming", pillar: "Case", assignee: "Alex (Talent)", priority: "High", due: "2026-10-18", note: "Fokus ke visual airbag 4 sudut & demonstrasi anti nguning vs case abal-abal." },
-        { id: 102, title: "A/B Testing Hook 3 Detik: Powerbank Loop 40W vs 22.5W", stage: "Scripting", pillar: "Power Bank", assignee: "Sarah (Script)", priority: "High", due: "2026-10-16", note: "Hook 1: 'Pake kabel ribet? Mending ini!'\nHook 2: 'Powerbank kecil tapi 40W?!'" },
-        { id: 103, title: "Edukasi Protokol AVS & GaN 45W vs Charger Bawaan iPhone", stage: "Ideas", pillar: "Charger", assignee: "Rian (Editor)", priority: "Medium", due: "2026-10-19", note: "Jelaskan kenapa fitur AVS bisa adaptif jaga battery health iPhone 15-18 series." },
+        { id: 101, title: "Review Case Ice Clear Garansi Yellowing 6 Bulan (Uji Ketahanan)", stage: "Filming", pillar: "Case", assignee: "KIKI (Talent)", priority: "High", due: "2026-10-18", note: "Fokus ke visual airbag 4 sudut & demonstrasi anti nguning vs case abal-abal." },
+        { id: 102, title: "A/B Testing Hook 3 Detik: Powerbank Loop 40W vs 22.5W", stage: "Scripting", pillar: "Power Bank", assignee: "ATHA (Script)", priority: "High", due: "2026-10-16", note: "Hook 1: 'Pake kabel ribet? Mending ini!'\nHook 2: 'Powerbank kecil tapi 40W?!'" },
+        { id: 103, title: "Edukasi Protokol AVS & GaN 45W vs Charger Bawaan iPhone", stage: "Ideas", pillar: "Charger", assignee: "DEWA (Editor)", priority: "Medium", due: "2026-10-19", note: "Jelaskan kenapa fitur AVS bisa adaptif jaga battery health iPhone 15-18 series." },
         { id: 104, title: "Tutorial Pasang Tempered Glass AR Anti-Reflection 5 Detik", stage: "Ready to Post", pillar: "Tempered Glass", assignee: "Budi (Host)", priority: "Medium", due: "2026-10-17", note: "Video sudah siap di-export, tinggal nunggu jadwal slot posting sore jam 18:00." },
         { id: 105, title: "Promo Special 10.10 Mega Sale Teaser Snippet", stage: "Published", pillar: "Promo/Live", assignee: "Team (All)", priority: "High", due: "2026-10-09", note: "Telah tayang dan menghasilkan ribuan views sebelum live dimulai." }
       ];
@@ -2171,7 +2170,7 @@
       renderAllTabs();
     }
 
-    // 1. Handler khusus untuk Menu "Video & Carousel Summary" (File Excel Rekap Harian: Waktu, GMV dari video, Pesanan SKU teratribusi, Impresi Produk, Klik Produk)
+    // 1. Handler khusus untuk Menu "Video & Carousel Summary" (File Excel Rekap HaDEWA: Waktu, GMV dari video, Pesanan SKU teratribusi, Impresi Produk, Klik Produk)
     function handleVCSummaryUpload(event) {
       const file = event.target.files[0];
       if (!file) return;
@@ -2215,7 +2214,7 @@
             const idxOrder = findColIndex(['pesanan sku teratribusi', 'pesanan sku dari video']);
             const idxOrderDirect = findColIndex(['pesanan sku dari video']);
             const idxOrderIndirect = findColIndex(['pesanan sku tidak langsung']);
-            const idxBuyers = findColIndex(['rata-rata pembeli harian', 'pembeli']);
+            const idxBuyers = findColIndex(['rata-rata pembeli haDEWA', 'pembeli']);
             const idxGmvTotal = findColIndex(['gmv dari video']);
             const idxGmvDirect = findColIndex(['gmv video']);
             const idxGmvIndirect = findColIndex(['gmv tidak langsung']);
@@ -2559,7 +2558,7 @@
         if (dailyRows.length === 0) {
           diagContainer.innerHTML = `
             <div class="col-span-3 p-5 rounded-xl bg-slate-50 dark:bg-slate-900/60 border border-slate-200 dark:border-slate-700 text-center text-xs text-slate-400">
-              Belum ada data harian Video & Carousel Summary. Silakan upload file Excel/CSV atau klik tombol <strong>"Isi Contoh Data RAPAtech"</strong> di kiri bawah.
+              Belum ada data haDEWA Video & Carousel Summary. Silakan upload file Excel/CSV atau klik tombol <strong>"Isi Contoh Data RAPAtech"</strong> di kiri bawah.
             </div>
           `;
         } else {
@@ -3821,7 +3820,7 @@
       } else {
         recText.innerHTML = `
           <p class="font-bold text-slate-800 dark:text-white mb-1"><i class="fa-solid fa-circle-check text-emerald-500 mr-1"></i> Alokasi Pilar Konten Seimbang</p>
-          <p>Pilar <strong>${topGmvPillar}</strong> mendominasi kontribusi pendapatan. Pastikan tim tetap menjaga konsistensi jadwal posting harian.</p>
+          <p>Pilar <strong>${topGmvPillar}</strong> mendominasi kontribusi pendapatan. Pastikan tim tetap menjaga konsistensi jadwal posting haDEWA.</p>
         `;
         balanceBadge.innerHTML = `<i class="fa-solid fa-circle-check text-emerald-500 mr-1"></i> Distribusi Konten Baik`;
       }
@@ -3968,10 +3967,10 @@
       if (gapBadgeEl) {
         if (gapDays > 0) {
           gapBadgeEl.className = "px-3 py-1 bg-amber-50 dark:bg-amber-900/30 text-amber-700 dark:text-amber-300 font-bold text-xs rounded-lg border border-amber-200 dark:border-amber-800 flex items-center gap-1";
-          gapBadgeEl.innerHTML = `<i class="fa-solid fa-triangle-exclamation text-[11px]"></i> ${gapDays} Hari Belum Terjadwal`;
+          gapBadgeEl.innerHTML = `<i class="fa-solid fa-tDEWAgle-exclamation text-[11px]"></i> ${gapDays} Hari Belum Terjadwal`;
         } else {
           gapBadgeEl.className = "px-3 py-1 bg-emerald-50 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-300 font-bold text-xs rounded-lg border border-emerald-200 dark:border-emerald-800 flex items-center gap-1";
-          gapBadgeEl.innerHTML = `<i class="fa-solid fa-circle-check text-[11px]"></i> Jadwal Harian Terpenuhi`;
+          gapBadgeEl.innerHTML = `<i class="fa-solid fa-circle-check text-[11px]"></i> Jadwal HaDEWA Terpenuhi`;
         }
       }
     }
@@ -3996,7 +3995,7 @@
       const starMemberEl = document.getElementById('sc-star-member');
       if (!grid) return;
 
-      const members = db.teamMembers || ['Alex (Talent)', 'Sarah (Script)', 'Rian (Editor)', 'Budi (Host)', 'Team (All)'];
+      const members = db.teamMembers || ['KIKI (Talent)', 'ATHA (Script)', 'DEWA (Editor)', 'Budi (Host)', 'Team (All)'];
       const allTodos = db.todos || [];
 
       const stats = {};
@@ -4049,12 +4048,12 @@
           starMember = s.name;
         }
       });
-      if (starMemberEl) starMemberEl.innerText = starMember ? `⭐ ${starMember.split(' ')[0]}` : (allTodos.length > 0 ? 'Alex (Talent)' : '-');
+      if (starMemberEl) starMemberEl.innerText = starMember ? `⭐ ${starMember.split(' ')[0]}` : (allTodos.length > 0 ? 'KIKI (Talent)' : '-');
 
       const memberIcons = {
-        'Alex (Talent)': { icon: 'fa-user-tie', color: 'blue' },
-        'Sarah (Script)': { icon: 'fa-pen-fancy', color: 'purple' },
-        'Rian (Editor)': { icon: 'fa-film', color: 'emerald' },
+        'KIKI (Talent)': { icon: 'fa-user-tie', color: 'blue' },
+        'ATHA (Script)': { icon: 'fa-pen-fancy', color: 'purple' },
+        'DEWA (Editor)': { icon: 'fa-film', color: 'emerald' },
         'Budi (Host)': { icon: 'fa-headset', color: 'amber' },
         'Team (All)': { icon: 'fa-users', color: 'cyan' }
       };
@@ -4220,7 +4219,7 @@
       const vcTopDaysBody = document.getElementById('rep-vc-topdays-body');
       if (vcTopDaysBody) {
         if (vcDays.length === 0) {
-          vcTopDaysBody.innerHTML = '<tr><td colspan="6" class="text-center py-3 text-slate-400">Belum ada data harian Video & Carousel</td></tr>';
+          vcTopDaysBody.innerHTML = '<tr><td colspan="6" class="text-center py-3 text-slate-400">Belum ada data haDEWA Video & Carousel</td></tr>';
         } else {
           const topGmv = [...vcDays].sort((a, b) => b.gmv - a.gmv)[0];
           const topCtr = [...vcDays].sort((a, b) => b.ctr - a.ctr)[0];
@@ -4313,7 +4312,7 @@
       const timingEl = document.getElementById('rep-timing-text');
       if (timingEl) {
         if (bestHour !== -1 && maxGmv > 0) {
-          timingEl.innerHTML = `Pukul <strong>${bestHour.toString().padStart(2, '0')}:00 - ${(bestHour + 1).toString().padStart(2, '0')}:00 WIB</strong> tercatat sebagai jam upload dengan konversi GMV tertinggi (Total: <strong>${formatRp(maxGmv)}</strong>). Fokuskan slot konten harian pada rentang waktu ini.`;
+          timingEl.innerHTML = `Pukul <strong>${bestHour.toString().padStart(2, '0')}:00 - ${(bestHour + 1).toString().padStart(2, '0')}:00 WIB</strong> tercatat sebagai jam upload dengan konversi GMV tertinggi (Total: <strong>${formatRp(maxGmv)}</strong>). Fokuskan slot konten haDEWA pada rentang waktu ini.`;
         } else {
           timingEl.innerText = `Belum ada data jam upload yang cukup. Disarankan menguji slot sore hari (17:00 - 20:00 WIB).`;
         }
